@@ -56,3 +56,8 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+.parag {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
