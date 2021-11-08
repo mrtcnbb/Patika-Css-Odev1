@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.color-pink {
+  color: deeppink;
+}
+
+.nav > ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav > ul > li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+  border: 1px solid violet;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav > ul > li:hover {
+  background-color: deeppink;
+  transition: 0.9s;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+}
+
+.content {
+  text-align: center;
+}
+
+.content > h1 {
+  color: blueviolet;
+}
+
+.content > p {
+  font-size: 20px;
+}
+
+.second-parag {
+  color: goldenrod;
+}
+
+.inst-list {
+  display: flex;
+  justify-content: center;
+}
+
+.inst-list > ul {
+  font-size: 20px;
+  margin-top: 0;
+}
