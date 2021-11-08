@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.color-pink {
+  color: deeppink;
+}
+
+.nav > ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav > ul > li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+  border: 1px solid violet;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav > ul > li:hover {
+  background-color: deeppink;
+  transition: 0.9s;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+}
+
+.content {
+  text-align: center;
+  color: blueviolet;
+}
+
+.vis,
+.mis {
+  color: goldenrod;
+}
+
+.parag {
+  text-indent: 25px;
+}
